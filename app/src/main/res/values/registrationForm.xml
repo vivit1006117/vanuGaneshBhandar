@@ -1,0 +1,9 @@
+<resources>
+    <string name="edit_name">NAME</string>
+    <string name="edit_password">PASSWORD</string>
+    <string name="E_mail">E-mail Address</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="submit">SUBMIT</string>
+    <string name="house">HOUSE</string>
+    <string name="phone_number">PHONE NUMBER</string>
+</resources>
