@@ -4,6 +4,10 @@
     <string name="E_mail">E-mail Address</string>
     <string name="confirm_password">CONFIRM PASSWORD</string>
     <string name="submit">SUBMIT</string>
-    <string name="house">HOUSE</string>
+    <string name="house">HOUSE and ROAD NO.</string>
     <string name="phone_number">PHONE NUMBER</string>
+    <string name="address">ADDRESS</string>
+    <string name="place">PLACE</string>
+    <string name="pin">PINCODE</string>
+    <string name="help">HELP</string>
 </resources>

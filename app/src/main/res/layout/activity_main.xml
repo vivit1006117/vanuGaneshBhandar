@@ -88,17 +88,6 @@
         android:layout_alignStart="@+id/editText5"
         android:hint="@string/house" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/submit"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/editText6"
-        android:layout_alignEnd="@+id/editText6" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -107,7 +96,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:hint="@string/address"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -119,7 +109,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:hint="@string/place" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -131,6 +122,29 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:hint="@string/pin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/editText6"
+        android:layout_alignEnd="@+id/editText6"
+        android:layout_below="@+id/editText9"
+        android:background="#b44ec4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText9"
+        android:text="@string/help"
+        android:background="#b44ec4" />
 
 </RelativeLayout>
