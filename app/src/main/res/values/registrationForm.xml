@@ -10,4 +10,5 @@
     <string name="place">PLACE</string>
     <string name="pin">PINCODE</string>
     <string name="help">HELP</string>
+    <string name="acceptTermsAndCondition">Accept terms and condition</string>
 </resources>
