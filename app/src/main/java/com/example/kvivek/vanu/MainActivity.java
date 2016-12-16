@@ -8,6 +8,7 @@ import android.widget.EditText;
 
 import com.example.kvivek.vanu.help.ContactUs;
 import com.example.kvivek.vanu.help.Help;
+import com.example.kvivek.vanu.home.Home;
 import com.example.kvivek.vanu.registeration.Register;
 
 import java.util.HashMap;
@@ -31,8 +32,7 @@ public class MainActivity extends AppCompatActivity {
         HashMap<String, String> fields = getAllRegistrationFields();
         Register register = new Register(fields);
         if (register.addUser()) {
-            Intent intent = new Intent(this, Help.class);
-            intent.putExtra("BACK_CLASS", MainActivity.class);
+            Intent intent = new Intent(this, Home.class);
             startActivity(intent);
         } else {
             Intent intent = new Intent(this, ContactUs.class);

@@ -12,4 +12,14 @@
     tools:context="com.example.kvivek.vanu.home.Home"
     tools:showIn="@layout/app_bar_home">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Search" />
 </RelativeLayout>
