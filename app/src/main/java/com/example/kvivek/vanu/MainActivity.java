@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.kvivek.vanu.help.ContactUs;
 import com.example.kvivek.vanu.help.Help;
-import com.example.kvivek.vanu.home.Home;
 import com.example.kvivek.vanu.registeration.Register;
 
 import java.util.HashMap;
@@ -20,17 +20,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void help(View view){
+    public void help(View view) {
         Intent intent = new Intent(this, Help.class);
         intent.putExtra("BACK_CLASS", MainActivity.class);
         startActivity(intent);
     }
 
-    public void register(View view){
+    public void register(View view) {
+        System.out.println("sdfsfsffsdfsdfsdfsdfsdfsdfs");
         HashMap<String, String> fields = getAllRegistrationFields();
         Register register = new Register(fields);
-        if(register.addUser()){
-            Intent intent = new Intent(this, Home.class);
+        if (register.addUser()) {
+            Intent intent = new Intent(this, Help.class);
+            intent.putExtra("BACK_CLASS", MainActivity.class);
+            startActivity(intent);
+        } else {
+            Intent intent = new Intent(this, ContactUs.class);
+            intent.putExtra("BACK_CLASS", MainActivity.class);
             startActivity(intent);
         }
     }
@@ -41,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
         EditText passwordText = (EditText) findViewById(R.id.password);
         EditText confirmPasswordText = (EditText) findViewById(R.id.confirmPassword);
         EditText emailText = (EditText) findViewById(R.id.email);
-        HashMap<String, String> registration = null;
+        HashMap<String, String> registration = new HashMap<String, String>();
+
         registration.put("name", nameText.getText().toString());
         registration.put("phoneNumber", phoneNumberText.getText().toString());
         registration.put("password", passwordText.getText().toString());

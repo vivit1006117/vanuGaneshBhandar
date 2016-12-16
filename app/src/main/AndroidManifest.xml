@@ -17,10 +17,10 @@
         </activity>
         <activity android:name=".help.Help" />
         <activity android:name=".help.ContactUs" />
-        <activity
-            android:name=".home.Home"
-            android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <!--<activity-->
+            <!--android:name=".home.Home"-->
+            <!--android:label="@string/title_activity_home"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"></activity>-->
     </application>
 
 </manifest>
