@@ -8,7 +8,7 @@ import android.view.View;
 import com.example.kvivek.vanu.R;
 import com.example.kvivek.vanu.help.Help;
 import com.example.kvivek.vanu.home.Home;
-import com.example.kvivek.vanu.registeration.Register;
+import com.example.kvivek.vanu.registration.Register;
 
 public class Login extends AppCompatActivity {
 

@@ -22,7 +22,7 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".login.Login" />
-        <activity android:name=".registeration.Register" />
+        <activity android:name=".registration.Register" />
         <activity android:name=".help.TermsAndCondition"></activity>
     </application>
 

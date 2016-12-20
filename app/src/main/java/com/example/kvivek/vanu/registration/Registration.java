@@ -1,14 +1,14 @@
-package com.example.kvivek.vanu.registeration;
+package com.example.kvivek.vanu.registration;
 
 import java.util.HashMap;
 
-public class Registeration {
+class Registration {
     private final String name;
     private final String password;
     private final String email;
     private final String phoneNumber;
 
-    public Registeration(HashMap<String, String> fields) {
+    public Registration(HashMap<String, String> fields) {
         name = fields.get("name");
         password = fields.get("password");
         email = fields.get("email");

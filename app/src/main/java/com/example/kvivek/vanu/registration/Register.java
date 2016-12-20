@@ -1,4 +1,4 @@
-package com.example.kvivek.vanu.registeration;
+package com.example.kvivek.vanu.registration;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,9 +29,8 @@ public class Register extends AppCompatActivity {
     }
 
     public void register(View view) {
-        System.out.println("sdfsfsffsdfsdfsdfsdfsdfsdfs");
         HashMap<String, String> fields = getAllRegistrationFields();
-        Registeration register = new Registeration(fields);
+        Registration register = new Registration(fields);
         if (register.addUser()) {
             Intent intent = new Intent(this, Home.class);
             startActivity(intent);
@@ -48,15 +47,20 @@ public class Register extends AppCompatActivity {
         EditText passwordText = (EditText) findViewById(R.id.password);
         EditText confirmPasswordText = (EditText) findViewById(R.id.confirmPassword);
         EditText emailText = (EditText) findViewById(R.id.email);
-        HashMap<String, String> registration = new HashMap<String, String>();
 
-        registration.put("name", nameText.getText().toString());
-        registration.put("phoneNumber", phoneNumberText.getText().toString());
-        registration.put("password", passwordText.getText().toString());
-        registration.put("confirmPassword", confirmPasswordText.getText().toString());
-        registration.put("email", emailText.getText().toString());
+        HashMap<String, String> registration = new HashMap<>();
+
+        createMap("name", nameText, registration);
+        createMap("phoneNumber", phoneNumberText, registration);
+        createMap("password", passwordText, registration);
+        createMap("confirmPassword", confirmPasswordText, registration);
+        createMap("email", emailText, registration);
 
         return registration;
+    }
+
+    private void createMap(String key, EditText value, HashMap<String, String> registration) {
+        if(value != null) registration.put(key, value.getText().toString());
     }
 
     public void termsAndCondition(View view) {

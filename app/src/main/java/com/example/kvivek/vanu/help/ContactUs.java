@@ -1,6 +1,5 @@
 package com.example.kvivek.vanu.help;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +9,7 @@ import com.example.kvivek.vanu.R;
 
 public class ContactUs extends AppCompatActivity {
 
-    Class nextActivityClass;
+    private Class nextActivityClass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +17,7 @@ public class ContactUs extends AppCompatActivity {
         setContentView(R.layout.activity_contact_us);
 
         Bundle extras = getIntent().getExtras();
-        nextActivityClass = (Class<Activity>) extras.getSerializable("BACK_CLASS");
+        nextActivityClass = (Class) extras.getSerializable("BACK_CLASS");
     }
 
     public void back(View view) {
