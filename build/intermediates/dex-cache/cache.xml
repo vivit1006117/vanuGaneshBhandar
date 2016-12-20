@@ -5,8 +5,71 @@
         jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="0b9d8cd03e520b92ccb733a697b101d6f8ea0b0e">
+        sha1="6d95df9dd87582c8807f4af02d51643b5913a843">
         <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_46686d1b8364c091dfb70a81581962e46d62f3ee/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_3b5270ca0855bc6d76bf02ba2a60a25d1094a330/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_ec83fbd299fcc4b8586980016341a70af6e4d715/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_7026c9cea347227b186fc4500d800e1adad6539f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_2956a0c20d91e5c43d1d05e84fcfd221612c1da7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_f7be5142d3b83f26853f93b715a879a3c807c788/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_675c0fbdafab18388d4fad7f469d53753d6350fa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="79d405257279dc0193efefc00b7ed72afe61f216">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_076a8122e9e42810d46ad83b667e5d502a413545/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_9784530761fec9109d991515f62cc366e8d9aae2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_f7405fa1b81ccd05ea275d05bf67c35f4908875e/classes.dex" />
     </item>
 
 </items>
