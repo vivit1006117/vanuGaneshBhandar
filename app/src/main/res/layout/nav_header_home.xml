@@ -16,9 +16,9 @@
         android:id="@+id/imageView"
         android:layout_width="146dp"
         android:layout_height="69dp"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:layout_gravity="right" />
-        <!--android:src="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/src/main/res/mipmap-xhdpi/ganesh.png"-->
+        android:layout_gravity="right"
+        android:paddingTop="@dimen/nav_header_vertical_spacing" />
+    <!--android:src="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/src/main/res/mipmap-xhdpi/ganesh.png"-->
 
 
 </LinearLayout>

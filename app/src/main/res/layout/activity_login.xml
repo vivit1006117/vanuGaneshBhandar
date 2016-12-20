@@ -10,67 +10,67 @@
     tools:context="com.example.kvivek.vanu.login.Login">
 
     <EditText
+        android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="User Id"
-        android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="User Id"
+        android:inputType="textPersonName" />
 
     <EditText
+        android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="@string/edit_password"
-        android:ems="10"
-        android:id="@+id/editText3"
-        android:layout_below="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="48dp"
         android:layout_alignRight="@+id/editText2"
-        android:layout_alignEnd="@+id/editText2" />
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/edit_password"
+        android:inputType="textPassword" />
 
     <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:text="LOGIN"
-        android:onClick="login"
+        android:layout_alignEnd="@+id/editText3"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText3"
         android:layout_marginBottom="50dp"
         android:background="@color/buttonRegular"
-        android:layout_alignRight="@+id/editText3"
-        android:layout_alignEnd="@+id/editText3" />
+        android:onClick="login"
+        android:text="LOGIN" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="Register"
         android:id="@+id/button6"
-        android:onClick="register"
-        android:layout_above="@+id/button3"
-        android:layout_marginBottom="20dp"
-        android:background="@color/buttonRegular"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="Help"
-        android:onClick="help"
-        android:id="@+id/button7"
         android:layout_above="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
         android:background="@color/buttonRegular"
+        android:onClick="register"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
         android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3" />
+        android:layout_marginBottom="20dp"
+        android:background="@color/buttonRegular"
+        android:onClick="help"
+        android:text="Help" />
 </RelativeLayout>

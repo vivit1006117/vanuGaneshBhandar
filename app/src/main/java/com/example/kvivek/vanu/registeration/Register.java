@@ -6,12 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-import com.example.kvivek.vanu.MainActivity;
 import com.example.kvivek.vanu.R;
 import com.example.kvivek.vanu.help.ContactUs;
 import com.example.kvivek.vanu.help.Help;
 import com.example.kvivek.vanu.home.Home;
-import com.example.kvivek.vanu.login.Login;
 
 import java.util.HashMap;
 

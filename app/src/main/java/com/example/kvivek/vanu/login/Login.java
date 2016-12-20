@@ -1,11 +1,10 @@
 package com.example.kvivek.vanu.login;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.kvivek.vanu.MainActivity;
 import com.example.kvivek.vanu.R;
 import com.example.kvivek.vanu.help.Help;
 import com.example.kvivek.vanu.home.Home;
@@ -30,7 +29,7 @@ public class Login extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void login(View view){
+    public void login(View view) {
         Intent intent = new Intent(this, Home.class);
         startActivity(intent);
     }
