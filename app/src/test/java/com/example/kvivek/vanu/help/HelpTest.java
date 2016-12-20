@@ -16,5 +16,4 @@ public class HelpTest {
         View view = new View(null);
         help.back(view);
     }
-
 }
