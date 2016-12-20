@@ -3,3 +3,5 @@
 .idea/
 
 .gradle/
+
+build/intermediates/dex-cache/cache.xml

@@ -9,6 +9,7 @@ import android.widget.EditText;
 import com.example.kvivek.vanu.R;
 import com.example.kvivek.vanu.help.ContactUs;
 import com.example.kvivek.vanu.help.Help;
+import com.example.kvivek.vanu.help.TermsAndCondition;
 import com.example.kvivek.vanu.home.Home;
 
 import java.util.HashMap;
@@ -56,5 +57,11 @@ public class Register extends AppCompatActivity {
         registration.put("email", emailText.getText().toString());
 
         return registration;
+    }
+
+    public void termsAndCondition(View view) {
+        Intent intent = new Intent(this, TermsAndCondition.class);
+        intent.putExtra("BACK_CLASS", Register.class);
+        startActivity(intent);
     }
 }
