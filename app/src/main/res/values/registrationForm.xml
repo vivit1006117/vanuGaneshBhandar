@@ -11,4 +11,5 @@
     <string name="pin">PINCODE</string>
     <string name="help">HELP</string>
     <string name="acceptTermsAndCondition">Accept terms and condition</string>
+    <string name="termsAndConditionHeader">Terms and condition</string>
 </resources>

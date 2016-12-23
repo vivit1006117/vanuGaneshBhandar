@@ -15,7 +15,20 @@ class Registration {
         phoneNumber = fields.get("phoneNumber");
     }
 
-    public boolean addUser() {
+    public boolean addUser(HashMap<String, String> fields) {
+//        User user = UserFactory.createUser(fields);
         return true;
     }
+
+
+//    class User extends Hibernate{
+//        private String name;
+//        private String password;
+//        private String email;
+//        private String phoneNumber;
+//
+//        public void save(){
+//            Hibernate.save(this);
+//        }
+//    }
 }

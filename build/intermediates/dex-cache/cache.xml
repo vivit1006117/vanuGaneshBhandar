@@ -5,7 +5,7 @@
         jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="2cd160989b4a4bb064667cac2c24b60575cfcf0a">
+        sha1="a9c65f66cad53a3a3de478fbd60e4dfeba6f7a9b">
         <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_46686d1b8364c091dfb70a81581962e46d62f3ee/classes.dex" />
     </item>
     <item
@@ -23,13 +23,6 @@
         <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_ec83fbd299fcc4b8586980016341a70af6e4d715/classes.dex" />
     </item>
     <item
-        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_7026c9cea347227b186fc4500d800e1adad6539f/classes.dex" />
-    </item>
-    <item
         jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="true"
         revision="23.0.3"
@@ -44,6 +37,13 @@
         <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_f7be5142d3b83f26853f93b715a879a3c807c788/classes.dex" />
     </item>
     <item
+        jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_7026c9cea347227b186fc4500d800e1adad6539f/classes.dex" />
+    </item>
+    <item
         jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
@@ -54,7 +54,7 @@
         jar="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="c8dbecdcacccda946610f42bacde8fab049dcb2c">
+        sha1="aebf307e9fb999e12c30b35ed99dfd937d4f0d7a">
         <dex dex="/Users/kvivek/AndroidStudioProjects/vanuGaneshBhandar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_076a8122e9e42810d46ad83b667e5d502a413545/classes.dex" />
     </item>
     <item
