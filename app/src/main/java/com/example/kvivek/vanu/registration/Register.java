@@ -31,7 +31,7 @@ public class Register extends AppCompatActivity {
     public void register(View view) {
         HashMap<String, String> fields = getAllRegistrationFields();
         Registration register = new Registration(fields);
-        if (register.addUser()) {
+        if (register.addUser(fields)) {
             Intent intent = new Intent(this, Home.class);
             startActivity(intent);
         } else {
