@@ -5,3 +5,5 @@
 .gradle/
 
 build/intermediates/dex-cache/cache.xml
+
+build/android-profile/*

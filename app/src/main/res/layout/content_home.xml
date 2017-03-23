@@ -20,6 +20,144 @@
         android:layout_height="wrap_content"
         android:hint="@string/search" />
 
+    <LinearLayout
+        android:id="@+id/itemTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_margin="10sp"
+            android:id="@+id/oddItems"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="Product Name"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:background="#DEB887"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130sp"
+                    android:src="@android:drawable/ic_menu_add"/>
+
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="30sp"
+                    android:layout_alignParentRight="true"
+                    android:src="@android:drawable/btn_star"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRICE"
+                    android:textAllCaps="true"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rs-500/kg"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20dp"
+                    android:background="#FF7F50"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:background="@color/buttonRegular"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10sp"
+            android:id="@+id/oddItems"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="Product Name"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:background="#DEB887"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130sp"
+                    android:src="@android:drawable/ic_menu_add"/>
+
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="30sp"
+                    android:layout_alignParentRight="true"
+                    android:src="@android:drawable/btn_star"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRICE"
+                    android:textAllCaps="true"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rs-500/kg"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20dp"
+                    android:background="#FF7F50"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:background="@color/buttonRegular"/>
+
+        </LinearLayout>
+    </LinearLayout>
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
